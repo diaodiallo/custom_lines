@@ -98,10 +98,6 @@ class ChartsOverridesPluginStyleChart extends ChartsPluginStyleChart {
       '#type' => 'fieldset',
       '#weight' => 1,
     ];
-
-    $form['fields']['table'][5]['data_fields']
-    Loop selected fields
-    Need to look for selected: [5]['data_fields'] as $field_name => $field_info
     $data_fields = [];
     foreach ($form['fields']['table'] as $key => $value) {
       //$value have key 'data_fields'
